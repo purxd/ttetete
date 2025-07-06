@@ -31,9 +31,9 @@
     left: 100%; top: 0;
     height: 100%; width: 100%;
     border-radius: 999px;
-    background: none repeat scroll 0 0 #508EC3; /* Начальный цвет */
+    background: none repeat scroll 0 0 #508EC3;
     opacity: 0.8;
-    animation: ui-spinner-rotate-left 3s infinite, colorChange 2s infinite alternate; /* Добавлена смена цвета */
+    animation: ui-spinner-rotate-left 3s infinite, colorChange 2s infinite alternate; 
     transform-origin: 0 50% 0;
 }
 .left .anim {
@@ -60,13 +60,13 @@
     75% { transform: rotate(180deg); }
     100% { transform: rotate(360deg); }
 }
-/* Анимация смены цвета */
+
 @keyframes colorChange {
-    0% { background: #508EC3; } /* Цвет 1 */
-    25% { background: #FF5733; } /* Цвет 2 */
-    50% { background: #33FF57; } /* Цвет 3 */
-    75% { background: #3357FF; } /* Цвет 4 */
-    100% { background: #FF33A1; } /* Цвет 5 */
+    0% { background: #508EC3; } 
+    25% { background: #FF5733; } 
+    50% { background: #33FF57; } 
+    75% { background: #3357FF; } 
+    100% { background: #FF33A1; } 
 }
 html { height: 100%; }
 body { text-align: center; background: radial-gradient(circle, #fff 0%, #bbb 85%); height: 100%; display: table; width: 100%; }
